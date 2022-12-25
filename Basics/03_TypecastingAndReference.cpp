@@ -10,8 +10,8 @@ int main(){
     cout<<"the value of local c: "<<c<<endl;
     cout<<"the value of global c: "<<::c<<endl;
 
-    float d = 23.32f;
-    long double e = 56.25L;
+    float d = 23.32f;   // if we append a 'f' or 'F' after the digit then the compiler takes it as float value
+    long double e = 56.25L; // if we append a 'l' or 'L' after the digit then the compiler takes it as long double value
     cout<<"the value of d is: "<<d<<endl<<"the value of e is: "<<e<<endl;
 
     cout<<"the size of 34.4 is: "<<sizeof(34.4)<<endl;
